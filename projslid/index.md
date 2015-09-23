@@ -77,7 +77,7 @@ $$GroupArrests = \frac{\sum_{i=1}^n StatePopulation_i StateArrests_i}{\sum_{i=1}
 
 --- .class #id 
 
-## Geographic map
+## Geographic Map
 
 * Geographic map of arrest rate of assault by division
 
