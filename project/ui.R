@@ -19,8 +19,10 @@ shinyUI(
                 helpText("Select the type of crime to see the number of arrests made of that crime in each of the 50 US States in 1973. The number of arrests is normalized to per 100,000 residents."),
                 selectInput("crime.type", "Type of Crime:", choices=colnames(usaRedux[,1:3])),
                 hr(),
-                helpText("The arrest statistics can be broken down groupings of states, divisions, or regions."),
-                selectInput("grouping", "Grouping:", choices=c("State","Division","Region"))
+                helpText("Select the grouping of the arrest statistics, by state, division, or region."),
+                selectInput("grouping", "Grouping:", choices=c("State","Division","Region")),
+                hr(),
+                helpText("Navigate through the tabbed panels titled Table, Plot, and Map to explore different ways of visualizing the data.")
             ),
             
             # Make the main panel a set of three tabs: Table, Plot, and Map
