@@ -13,7 +13,7 @@ knit        : slidify::knit2slides
 
 ## A Most Violent Year: Overview of US Arrests for Violent Crimes in 1973
 
-* The application summarizes the number of arrests made by US states for three types of violent crime that occured in the year 1973: Murder, Rape, and Assault, normalized to number of arrests per 100,000 people
+* The application summarizes the number of arrests made by US states for three types of violent crime that occurred in the year 1973: Murder, Rape, and Assault, normalized to number of arrests per 100,000 people
 * Three ways of data visualization given: data table, bar chart, and geographic map of US states
 * Interactive selection of arrest data for one type of crime at a time
 * Interactive selection of grouping by one of the following:
